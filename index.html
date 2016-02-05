@@ -56,73 +56,84 @@
           </div>
         </div>
       </header>
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Inicio</a>
+      <!--http://jsfiddle.net/apougher/ydcMQ/-->
+      <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Inicio</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <!--<li><a href="#">Otro Enlace</a></li>-->
+              <li class="dropdown menu-large">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Glyphicons</li>
+                      <li><a href="#">Available glyphs</a></li>
+                      <li class="disabled"><a href="#">How to use</a></li>
+                      <li><a href="#">Examples</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Dropdowns</li>
+                      <li><a href="#">Example</a></li>
+                      <li><a href="#">Aligninment options</a></li>
+                      <li><a href="#">Headers</a></li>
+                      <li><a href="#">Disabled menu items</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Button groups</li>
+                      <li><a href="#">Basic example</a></li>
+                      <li><a href="#">Button toolbar</a></li>
+                      <li><a href="#">Sizing</a></li>
+                      <li><a href="#">Nesting</a></li>
+                      <li><a href="#">Vertical variation</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Button dropdowns</li>
+                      <li><a href="#">Single button dropdowns</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Input groups</li>
+                      <li><a href="#">Basic example</a></li>
+                      <li><a href="#">Sizing</a></li>
+                      <li><a href="#">Checkboxes and radio addons</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">Navs</li>
+                      <li><a href="#">Tabs</a></li>
+                      <li><a href="#">Pills</a></li>
+                      <li><a href="#">Justified</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Navbar</li>
+                      <li><a href="#">Default navbar</a></li>
+                      <li><a href="#">Buttons</a></li>
+                      <li><a href="#">Text</a></li>
+                      <li><a href="#">Non-nav links</a></li>
+                      <li><a href="#">Component alignment</a></li>
+                      <li><a href="#">Fixed to top</a></li>
+                      <li><a href="#">Fixed to bottom</a></li>
+                      <li><a href="#">Static top</a></li>
+                      <li><a href="#">Inverted navbar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Datos personales <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Actualizar Datos</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plan de Trabajo <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Mi plan de trabajo</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Datos personales <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Actualizar Datos</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Reglamentación</a>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Asignación Académica <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Asignaturas</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consejerías <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Consejerías</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Auto Evaluación <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Auto Evaluación</a></li>
-              <li><a href="#">Observaciones de estudiante</a></li>
-              <li><a href="#">Resultados Evaluaciones</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Captura de Notas <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Lista de clases</a></li>
-              <li><a href="#">Captura de notas pregrado</a></li>
-              <li><a href="#">Captura de notas postgrado</a></li>
-              <li><a href="#">Vacacionales</a></li>
-              <li><a href="#">Notas periodo anterior</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
   </nav>
@@ -304,7 +315,7 @@
               if (d.getElementById(id)) return;
               js = d.createElement(s);
               js.id = id;
-              js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+              js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5 ";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
           </script>
@@ -342,10 +353,10 @@
               if (!d.getElementById(id)) {
                 js = d.createElement(s);
                 js.id = id;
-                js.src = p + "://platform.twitter.com/widgets.js";
+                js.src = p + "://platform.twitter.com/widgets.js ";
                 fjs.parentNode.insertBefore(js, fjs);
               }
-            }(document, "script", "twitter-wjs");
+            }(document, "script ", "twitter-wjs ");
           </script>
 
         </div>
